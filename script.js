@@ -13,7 +13,9 @@ function computerPlay() {
 
 function playRound(playerSelection, computerSelection) {
   let playerChoice = playerSelection;
+  console.log(`You chose ${playerChoice}`);
   let computerChoice = computerSelection;
+  console.log(`Computer chose ${computerPointSum}`);
   if (
     (playerChoice === "rock" && computerChoice === "scissors") ||
     (playerChoice === "paper" && computerChoice === "rock") ||
