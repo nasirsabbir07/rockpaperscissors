@@ -1,4 +1,82 @@
-,
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
 :root {
   background-color: #ffeb4d;
+}
+
+.title {
+  display: grid;
+  align-items: center;
+  font-family: "Press Start 2P", cursive;
+  text-align: center;
+  font-size: 60px;
+  text-transform: uppercase;
+  margin: 25px;
+  padding: 5px;
+  background-image: linear-gradient(90deg, red, blue);
+  background-clip: text;
+  color: transparent;
+  border: 1px solid black;
+}
+
+.subtext {
+  font-family: "press start 2p", cursive;
+  text-align: center;
+  font-size: 40px;
+  text-transform: uppercase;
+  /* background-image: linear-gradient(90deg, blue, red);
+  background-clip: text; */
+  color: rgb(34, 33, 33);
+  margin: 25px;
+  padding: 10px;
+}
+/* .player {
+  height: 40px;
+  width: auto;
+}
+
+.computer {
+  height: 40px;
+  width: auto;
+} */
+.score {
+  font-family: "Press Start 2P", cursive;
+  font-size: 50px;
+  text-transform: uppercase;
+  /* background-image: linear-gradient(90deg, red, blue);
+  background-clip: text; */
+  color: rgb(34, 33, 33);
+  text-align: center;
+}
+
+.components {
+  height: 80px;
+  width: auto;
+}
+
+.user-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2px;
+  margin: 25px;
+  justify-items: center;
+}
+
+.selection-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2px;
+  margin: 25px;
+}
+
+.selection-items {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 10px;
+}
+
+.selection-items > img:hover {
+  transform: scale(1.1);
 }
