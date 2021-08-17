@@ -1,17 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<body>
-    Rock Paper Scissors
+  <body>
+    <header>
+      <div class="title">rock paper scissors</div>
+    </header>
 
-    <script src="script.js"></script>
-</body>
+    <main>
+      <div class="subtext">Can you beat the machine?</div>
 
+      <!-- Player 1 -->
+      <div class="user-container">
+        <div class="score">
+          <img src="athlete.svg" alt="" class="player components" />:<span
+            >0</span
+          >
+        </div>
+        <div class="score">
+          <img src="computer.svg" alt="" class="computer components" />:<span
+            >0</span
+          >
+        </div>
+      </div>
+
+      <div class="selection-container">
+        <div class="selection-items">
+          <img src="rock.svg" alt="" class="rock components" />
+          <img src="paper.svg" alt="" class="paper components" />
+          <img src="scissors.svg" alt="" class="scissors components" />
+        </div>
+        <div class="selection-items">
+          <img src="rock.svg" alt="" class="rock components" />
+          <img src="paper.svg" alt="" class="paper components" />
+          <img src="scissors.svg" alt="" class="scisscors components" />
+        </div>
+      </div>
+    </main>
+
+    <!-- <script src="script.js"></script> -->
+  </body>
 </html>
