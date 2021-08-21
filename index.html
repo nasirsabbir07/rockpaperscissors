@@ -27,11 +27,13 @@
       <div class="user-container">
         <div class="score">
           <img src="athlete.svg" alt="" class="player components" />:<span
+            class="playerScore"
             >0</span
           >
         </div>
         <div class="score">
           <img src="computer.svg" alt="" class="computer components" />:<span
+            class="computerScore"
             >0</span
           >
         </div>
@@ -39,18 +41,37 @@
 
       <div class="selection-container">
         <div class="selection-items">
-          <img src="rock.svg" alt="" class="rock components" />
-          <img src="paper.svg" alt="" class="paper components" />
-          <img src="scissors.svg" alt="" class="scissors components" />
+          <button class="btn player-btn">
+            <img src="rock.svg" alt="" class="components" />
+          </button>
+          <button class="btn player-btn">
+            <img src="paper.svg" alt="" class="components" />
+          </button>
+          <button class="btn player-btn">
+            <img src="scissors.svg" alt="" class="components" />
+          </button>
         </div>
         <div class="selection-items">
-          <img src="rock.svg" alt="" class="rock components" />
-          <img src="paper.svg" alt="" class="paper components" />
-          <img src="scissors.svg" alt="" class="scisscors components" />
+          <button class="btn">
+            <img src="rock.svg" alt="" class="components" />
+          </button>
+          <button class="btn">
+            <img src="paper.svg" alt="" class="components" />
+          </button>
+          <button class="btn">
+            <img src="scissors.svg" alt="" class="components" />
+          </button>
         </div>
+      </div>
+
+      <div class="result-comments">
+        <p>You Win</p>
+        <p>You Win</p>
+        <p>You Win</p>
       </div>
     </main>
 
     <!-- <script src="script.js"></script> -->
+    <script src="app.js"></script>
   </body>
 </html>
