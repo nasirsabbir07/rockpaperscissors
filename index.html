@@ -22,7 +22,9 @@
 
     <main>
       <div class="subtext">Can you beat the machine?</div>
-
+      <audio src="Sound/click.mp3" id="audio"></audio>
+      <audio src="Sound/victory.wav" id="audio"></audio>
+      <audio src="Sound/lose.wav" id="audio"></audio>
       <!-- Player 1 -->
       <div class="user-container">
         <div class="score">
@@ -64,14 +66,12 @@
         </div>
       </div>
 
-      <div class="result-comments">
-        <p>You Win</p>
-        <p>You Win</p>
-        <p>You Win</p>
-      </div>
+      <div class="result-comments"></div>
+
+      <div class="victory-modal"></div>
     </main>
 
-    <!-- <script src="script.js"></script> -->
-    <script src="app.js"></script>
+    <script src="script.js"></script>
+    <!-- <script src="app.js"></script> -->
   </body>
 </html>
